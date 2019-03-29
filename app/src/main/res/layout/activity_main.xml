@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:paddingTop="100dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tittle"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/p1"
+            android:background="#bc1f26"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/p2"
+            android:background="#8b164f"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/p3"
+            android:background="#4b2087"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/p4"
+            android:background="#30268d"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/p5"
+            android:background="#172b7a"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/p6"
+            android:background="#004b9c"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/p7"
+            android:background="#005996"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/p8"
+            android:background="#006063"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/p9"
+            android:background="#004e43"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+
+    </GridLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/users" />
+
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/user" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_hint" />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSub"/>
+
+</LinearLayout>

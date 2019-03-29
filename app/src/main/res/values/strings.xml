@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Corto</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="user">Escribe el usuario aquí</string>
+    <string name="email_hint">Escribe tu email aquí</string>
+    <string name="users">Usuario</string>
+    <string name="btnSub">SUBMIT</string>
+    <string name="Tittle">Contador de productos</string>
+    <string name="p1">Producto 1 #</string>
+    <string name="p2">Producto 2 #</string>
+    <string name="p3">Producto 3 #</string>
+    <string name="p4">Producto 4 #</string>
+    <string name="p5">Producto 5 #</string>
+    <string name="p6">Producto 6 #</string>
+    <string name="p7">Producto 7 #</string>
+    <string name="p8">Producto 8 #</string>
+    <string name="p9">Producto 9 #</string>
+    <string name="Fact">Factura</string>
+    <string name="userN">Usuario:</string>
+    <string name="emailN">Correo:</string>
+    <string name="totalP">Total de Productos:</string>
+    <string name="detalleP">Detalle de productos</string>
+    <string name="producto_1">Producto 1:</string>
+    <string name="producto_2">Producto 2:</string>
+    <string name="producto_3">Producto 3:</string>
+    <string name="producto_4">Producto 4:</string>
+    <string name="producto_5">Producto 5:</string>
+    <string name="producto_6">Producto 6:</string>
+    <string name="producto_7">Producto 7:</string>
+    <string name="producto_8">Producto 8:</string>
+    <string name="producto_9">Producto 9:</string>
+</resources>
