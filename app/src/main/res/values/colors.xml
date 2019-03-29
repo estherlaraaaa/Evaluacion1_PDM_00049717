@@ -3,4 +3,13 @@
     <color name="colorPrimary">#15B8A9</color>
     <color name="colorPrimaryDark">#146D5F</color>
     <color name="colorAccent">#BE3869</color>
+    <color name="btn1">#7BBC1F</color>
+    <color name="btn2">#8B3F65</color>
+    <color name="btn3">#7853AD</color>
+    <color name="btn4">#8D82DF</color>
+    <color name="btn5">#2952E0</color>
+    <color name="btn6">#E23162</color>
+    <color name="btn7">#E9DA72</color>
+    <color name="btn8">#03A9F4</color>
+    <color name="btn9">#4F6EE7</color>
 </resources>
