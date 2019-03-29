@@ -17,7 +17,7 @@ import org.json.JSONObject;
 public class secondActivity extends AppCompatActivity {
 
     private TextView tv_userResult, tv_emailResult, tv_total;
-    private Button btn1_i,btn2_i,btn3_i,btn4_i,btn5_i,btn6_i,btn7_i,btn8_i,btn9_i, btnsubmit;
+    private Button btn1_i,btn2_i,btn3_i,btn4_i,btn5_i,btn6_i,btn7_i,btn8_i,btn9_i, btnshare;
     String cont1, cont2, cont3, cont4, cont5, cont6, cont7, cont8, cont9, txt1, txt2, txt3;
 
 
@@ -40,7 +40,7 @@ public class secondActivity extends AppCompatActivity {
         btn8_i = findViewById(R.id.btn8_i);
         btn9_i = findViewById(R.id.btn9_i);
 
-        btnsubmit = findViewById(R.id.btnsubmit);
+        btnshare = findViewById(R.id.btnshare);
 
         final JSONObject jsonx=new JSONObject();
 
@@ -97,7 +97,7 @@ public class secondActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        btnsubmit.setOnClickListener(new View.OnClickListener() {
+        btnshare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent shareIntent=new Intent();
